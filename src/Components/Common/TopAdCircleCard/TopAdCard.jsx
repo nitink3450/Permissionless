@@ -3,7 +3,6 @@ import './TopAdCard.css'
 const TopAdCard = ({ src: { src, Name } }) => {
   return (
     <>
-      {/* <img className=Name="main1" src={src} alt="img" /> */}
       <div className="main1">
         <ul className="ch-grid">
           <li>

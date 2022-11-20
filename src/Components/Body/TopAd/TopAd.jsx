@@ -1,9 +1,8 @@
-import React, { useState } from 'react'
+import React from 'react'
 import TopAdCard from '../../Common/TopAdCircleCard/TopAdCard'
 import './TopAd.css';
 import { data } from '../.././Common/TopAdCircleCard/Data'
 const TopAd = () => {
-  const [data1, setData1] = useState(data)
   return (
     <>
       <div className="main">
@@ -12,8 +11,8 @@ const TopAd = () => {
           <a style={{ textDecoration: "underline", color: "white" }} href="/">View All</a>
         </div>
         <div className="drag">
-          {data1.map((src, i) => {
-            return (<TopAdCard key={i} src={src} />)
+          {data.map((val, i) => {
+            return (<TopAdCard key={i} src={val} />)
           })}
         </div>
       </div>
