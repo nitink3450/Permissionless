@@ -1,0 +1,122 @@
+.imagTag {
+    height: 110px;
+    width: 110px;
+    border: 4px solid white;
+    border-radius: 50%;
+}
+
+.vertical {
+    content: "";
+    height: 132px;
+    position: absolute;
+    top: 184px;
+    left: 50%;
+    border-left: 4px dashed #2F30D6;
+    z-index: 0;
+}
+
+.num {
+    font-size: 80px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.boxnum {
+    border: 2px solid #767676;
+    height: 35vh;
+    width: 85%;
+    border-radius: 20px;
+    background-color: #3C3C3C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+}
+
+.main_C {
+    /* border: 2px solid crimson; */
+    /* display: flex; */
+}
+.main_C2{
+    /* border: 2px solid rgb(255, 230, 0); */
+    display: flex;
+    flex-flow: wrap;
+    /* width:100%; */
+    justify-content: space-between;
+    align-items: center;
+    /* background-image: url('../../../Assets/road.png'); */
+}
+
+.mainD {
+    /* border: 2px solid white; */
+    height: 90vh;
+    width: 30%;
+    /* background-color: gray; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: wrap;
+    position: relative;
+}
+.mainD:Hover{
+    z-index: 10px;
+    margin-top: -70px;
+    transition: all 0.5s linear 0s;
+
+}
+
+.headingChoose3 {
+    height: 150px;
+    width: 100%;
+    /* border: 1px solid crimson; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.ChooseText3 {
+    position: relative;
+}
+
+.curveChoose3 {
+    height: 70px;
+    width: 250px;
+    border: solid 5px #2F30D6;
+    border-color: #2F30D6 transparent transparent transparent;
+    border-radius: 60%/70px 25px 0 0;
+    position: absolute;
+    left: 40px;
+    top: 60px;
+    /* border: 2px solid green; */
+}
+
+@media (max-width:500px) {
+    .ChooseText3 {
+        font-size: 40px;
+    }
+
+    .curveChoose3 {
+        left: 70px;
+        top: 55px;
+    }
+
+    .imagTag {
+        height: 90px;
+        width: 90px;
+    }
+
+    .vertical {
+        height: 127px;
+        top: 155px;
+    }
+
+    .num {
+        font-size: 65px;
+    }
+    .mainD {
+        width: 100%;
+        flex-flow: column wrap;
+    }
+}

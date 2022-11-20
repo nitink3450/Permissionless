@@ -1,0 +1,148 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.category {
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 5px 10px;
+    letter-spacing: 2px;
+    background-color: purple;
+}
+
+.images {
+    position: relative;
+}
+
+.category1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-left: 5px solid #fb4c35;
+    width: auto;
+    display: block;
+    background: linear-gradient(to right, #fb4c35 50%, black 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all 0.5s ease-out;
+    cursor: pointer;
+}
+
+.category1 span {
+    color: #fff;
+    text-transform: capitalize;
+    letter-spacing: 0;
+}
+
+.category1:hover {
+    background-position: left bottom;
+}
+
+.category1 span:hover {
+    color: #fff;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    padding: 0px 60px;
+}
+
+.content {
+    min-height: 60vh;
+    /* border: 2px solid white; */
+    width: 86%;
+    margin: 0px 95px;
+}
+
+.img {
+    height: 100px;
+    width: 100px;
+    margin: 30px;
+}
+
+.items {
+    border:3px solid #2F30D6;
+    border-radius: 40px;
+    height: 70vh;
+    background-color: #090909;
+}
+
+.items:hover {
+    background-color: #2A2A2A;
+}
+
+.headingChoose {
+    height: 150px;
+    width: 100%;
+    /* border: 1px solid crimson; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.ChooseText {
+    position: relative;
+}
+
+.curveChoose {
+    height: 70px;
+    width: 250px;
+    border: solid 5px #2F30D6;
+    border-color: #2F30D6 transparent transparent transparent;
+    border-radius: 60%/70px 25px 0 0;
+    position: absolute;
+    left: 40px;
+    top: 60px;
+        /* border: 2px solid green; */
+}
+
+.btn2 {
+    border-radius: 50px;
+    border: 2px solid #2F30D6;
+    background-color: black;
+    color: #ffffff;
+    font-size: 15px;
+    padding: 10px 15px 10px 15px;
+    margin-top: 30px;
+    width: 200px;
+}
+
+.btn2:hover {
+    background-color: #2F30D6;
+    color: white;
+}
+
+@media (max-width:500px) {
+    .content {
+        min-height: 50vh;
+        width: 75%;
+        margin: 20px 46px;
+    }
+
+    .img {
+        height: 70px;
+        width: 70px;
+        margin: 10px;
+    }
+
+    .items {
+        border: 1px solid blue;
+        height: 70vh;
+    }
+    .btn2 {
+        margin-top: 10px;
+  
+    }
+    .text {
+        padding: 0px 20px;
+    }
+}

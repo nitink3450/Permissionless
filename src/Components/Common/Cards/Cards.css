@@ -1,0 +1,49 @@
+.bigCard {
+    height: 50vh;
+    width: 45%;
+    /* background-color: violet; */
+    border-radius: 30px;
+    margin: 10px 30px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+    background-size: cover;
+}
+
+.bigHead {
+    position: absolute;
+
+}
+
+.smallCard {
+    height: 50vh;
+    width: 25%;
+    /* background-color: violet; */
+    border-radius: 30px;
+    margin: 10px 30px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+    background-size: cover;
+}
+
+.smallHead {
+    position: absolute;
+
+}
+
+@media (max-width:500px) {
+    .bigCard {
+        width: 95%;
+        margin: 10px;
+    }
+
+    .smallCard {
+        width: 95%;
+        margin: 10px;
+    }
+}

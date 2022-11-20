@@ -1,0 +1,31 @@
+.border1 {
+    border-radius: 20px;
+    border: none;
+}
+
+.nav-item {
+    font-size: 17px;
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    z-index: 10;
+    background-color: black;
+
+}
+.btn_color{
+    background-color: #2F30D6;
+    color: white;
+}
+@media (max-width:500px) {
+    .logo {
+        margin-right: 20px;
+    }
+
+    .navbar {
+        width: 75%;
+        border-bottom: 0.1px gray solid;
+    }
+}

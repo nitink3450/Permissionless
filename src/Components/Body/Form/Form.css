@@ -1,0 +1,173 @@
+.headingChoose6 {
+    height: 150px;
+    width: 100%;
+    /* border: 1px solid crimson; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.ChooseText6 {
+    position: relative;
+}
+
+.curveChoose6 {
+    height: 70px;
+    width: 350px;
+    border: solid 5px #2F30D6;
+    border-color: #2F30D6 transparent transparent transparent;
+    border-radius: 60%/70px 25px 0 0;
+    position: absolute;
+    left: 30px;
+    top: 60px;
+    /* border: 2px solid green; */
+}
+
+.FormDiv {
+    /* border: 2px solid dodgerblue; */
+    min-height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left1 {
+    /* border: 2px solid rgb(157, 255, 0); */
+    height: 70vh;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right1 {
+    /* border: 2px solid rgb(255, 2, 2); */
+    height: 70vh;
+    width: 60%;
+}
+
+.des {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 400px;
+    color: gray;
+}
+
+.roundImg {
+    height: 500px;
+    width: 300px;
+    border: 1px solid white;
+    border-radius: 200px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-flow: column wrap;
+    padding-bottom: 100px;
+    background-image: url("../../../Assets/law2.jpg");
+    background-size: cover;
+    object-fit: cover;
+}
+
+.form-control {
+    width: 90%;
+    background-color: #2A2A2A;
+    outline: none;
+    border: none;
+    color: white;
+    height: 60px;
+}
+
+.form-control:focus {
+    background-color: #2A2A2A;
+    color: white;
+}
+
+.form-group {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* padding: 0px 100px; */
+    margin: 0px 100px;
+    color: white;
+}
+
+.form-group1 {
+    margin: 0px 100px;
+    width: 82%;
+}
+
+#exampleFormControlTextarea1 {
+    height: 150px;
+}
+
+label {
+    font-size: 20px;
+}
+
+.btn_color1 {
+    background-color: #2F30D6;
+    color: white;
+    width: 150px;
+    height: 60px;
+    border-radius: 50px;
+    font-size: x-large;
+    margin-top: 20px;
+    margin-left: 350px;
+
+}
+
+@media (max-width:500px) {
+    .headingChoose6 {
+        font-size: 40px;
+    }
+
+    .curveChoose6 {
+        width: 300px;
+        left: 30px;
+    }
+
+    .FormDiv {
+        flex-flow: column wrap;
+    }
+
+    .left1 {
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .right1 {
+        /* border: 2px solid rgb(255, 2, 2); */
+        height: 70vh;
+        width: 100%;
+    }
+
+    .des {
+        margin: 10px;
+    }
+    .form-control {
+        width: 100%;
+    }
+    .form-group {
+        grid-template-columns: 1fr;
+        margin:50px 40px;
+    }
+    .form-group1 {
+        margin:0px 10px;
+        width: 90%;
+    }
+
+    #exampleFormControlTextarea1 {
+        height: 100px;
+    }
+
+    label {
+        font-size: 20px;
+    }
+
+    .btn_color1 {
+        margin-left: 100px;
+    }
+
+}

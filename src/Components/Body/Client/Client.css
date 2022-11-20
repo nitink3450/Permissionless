@@ -1,0 +1,142 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.category {
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 5px 10px;
+    letter-spacing: 2px;
+    background-color: purple;
+}
+
+.images22 {
+    position: relative;
+}
+
+.category1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-left: 5px solid #fb4c35;
+    width: auto;
+    display: block;
+    background: linear-gradient(to right, #fb4c35 50%, black 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all 0.5s ease-out;
+    cursor: pointer;
+}
+
+.category1 span {
+    color: #fff;
+    text-transform: capitalize;
+    letter-spacing: 0;
+}
+
+.category1:hover {
+    background-position: left bottom;
+}
+
+.category1 span:hover {
+    color: #fff;
+}
+
+.text22 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    padding: 0px 60px;
+}
+
+.content22 {
+    min-height: 60vh;
+    /* border: 2px solid white; */
+    width: 86%;
+    margin: 0px 95px;
+}
+
+.img22 {
+    height: 100px;
+    width: 100px;
+    margin: 30px;
+}
+
+.items22 {
+    border: 3px solid #2F30D6;
+    border-radius: 40px;
+    height: 70vh;
+    background-color: #090909;
+}
+
+.items22:hover {
+    background-color: #2A2A2A;
+}
+
+.headingChoose22 {
+    height: 150px;
+    width: 100%;
+    /* border: 1px solid crimson; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.ChooseText22 {
+    position: relative;
+}
+
+.curveChoose22 {
+    height: 70px;
+    width: 250px;
+    border: solid 5px #2F30D6;
+    border-color: #2F30D6 transparent transparent transparent;
+    border-radius: 60%/70px 25px 0 0;
+    position: absolute;
+    left: 380px;
+    top: 60px;
+    /* border: 2px solid green; */
+}
+
+@media (max-width:500px) {
+    .content22 {
+        min-height: 50vh;
+        width: 75%;
+        margin: 20px 46px;
+    }
+
+    .img22 {
+        height: 70px;
+        width: 70px;
+        margin: 10px;
+    }
+
+    .items22 {
+        border: 1px solid blue;
+        height: 70vh;
+        margin-top: 20px;
+    }
+
+    .text22 {
+        padding: 0px 20px;
+    }
+
+    .ChooseText22 {
+        margin: 30px;
+    }
+
+    .curveChoose22 {
+        height: 70px;
+        width: 250px;
+        left: 50px;
+        top: 135px;
+        /* border: 2px solid green; */
+    }
+}

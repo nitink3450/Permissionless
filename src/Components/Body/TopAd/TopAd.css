@@ -1,0 +1,116 @@
+.main {
+    margin-top: 10px;
+    min-height: 50vh;
+    width: 100%;
+    /* border: 2px solid green; */
+}
+
+.head {
+    /* border: 2px solid rgb(246, 255, 0); */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 150px;
+}
+
+.topText {
+    font-size: 4vh;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+}
+
+.curvetop {
+    height: 70px;
+    width: 200px;
+    border: solid 5px #2F30D6;
+    border-color: #2F30D6 transparent transparent transparent;
+    border-radius: 60%/70px 15px 0 0;
+    position: absolute;
+    left: -5px;
+    top: 45px
+}
+
+.drag {
+    /* border: 2px solid rgb(255, 0, 225); */
+    margin-top: 30px;
+    min-height: 50vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: wrap;
+}
+
+.intro {
+    min-height: 20vh;
+    /* border: 0.1px violet solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: wrap;
+}
+
+.left {
+    /* border: 2px violet solid; */
+    height: 50%;
+    width: 50%;
+    padding: 10vh 10vh 10vh 18vh;
+}
+
+.left>div {
+    font-size: 70px;
+    font-weight: bold;
+    position: relative;
+}
+
+.right {
+    /* border: 2px rgb(3, 255, 205) solid; */
+    height: 50%;
+    width: 50%;
+    padding: 10vh;
+}
+
+.curveIntro {
+    height: 70px;
+    width: 400px;
+    border: solid 5px #2F30D6;
+    border-color: #2F30D6 transparent transparent transparent;
+    border-radius: 60%/70px 25px 0 0;
+    position: absolute;
+    top: 90px;
+    left: 100px
+        /* border: 2px solid green; */
+}
+
+@media (max-width:500px) {
+    .head {
+        margin: 10px 30px;
+    }
+
+    .curvetop {
+        width: 200px;
+        left: -40px;
+    }
+
+    .left {
+        /* border: 2px violet solid; */
+        width: 100%;
+        padding: 2vh;
+    }
+
+    .left>div {
+        font-size: 30px;
+    }
+
+    .right {
+        /* border: 2px rgb(3, 255, 205) solid; */
+        width: 100%;
+        padding: 4vh;
+    }
+
+    .curveIntro {
+        width: 210px;
+        top: 40px;
+        left: 20px
+    }
+}

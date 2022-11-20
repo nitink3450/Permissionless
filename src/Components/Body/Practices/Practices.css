@@ -1,0 +1,46 @@
+.headingChoose10 {
+    height: 150px;
+    width: 100%;
+    /* border: 1px solid crimson; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.ChooseText10 {
+    position: relative;
+}
+
+.curveChoose10 {
+    height: 70px;
+    width: 250px;
+    border: solid 5px #2F30D6;
+    border-color: #2F30D6 transparent transparent transparent;
+    border-radius: 60%/70px 25px 0 0;
+    position: absolute;
+    left: 120px;
+    top: 60px;
+}
+.Pcards{
+    min-height: 70vh;
+    /* border: 1px solid white; */
+    /* padding:10px 0px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+@media (max-width:500px) {
+    .headingChoose1 {
+        font-size: 43px;
+    }
+
+    .curveChoose1 {
+        left: 90px;
+    }
+    .Pcards{
+        display: block;
+    }
+}

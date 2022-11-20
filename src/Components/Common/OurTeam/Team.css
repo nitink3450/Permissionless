@@ -1,0 +1,76 @@
+.headingChoose4 {
+    height: 150px;
+    width: 100%;
+    /* border: 1px solid crimson; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.ChooseText4 {
+    position: relative;
+}
+
+.curveChoose4 {
+    height: 90px;
+    width: 150px;
+    border: solid 5px #2F30D6;
+    border-color: #2F30D6 transparent transparent transparent;
+    border-radius: 60%/70px 25px 0 0;
+    position: absolute;
+    left: 70px;
+    top: 60px;
+    /* border: 2px solid green; */
+}
+
+.Tcard {
+    /* border: 2px solid purple; */
+    min-height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: wrap;
+}
+
+.tcardSmall {
+    height: 17vh;
+    width: 20%;
+    background-color: #3C3C3C;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    margin: 50px 100px;
+}
+
+.tcardSmall:hover {
+    background-color: #2F30D6;
+    margin-top: 30px;
+    transition: all 0.2s linear 0s;
+}
+
+.tcardSmallImg {
+    height: 90px;
+    width: 90px;
+}
+.mainCon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+@media (max-width:500px) {
+    .tcardSmall {
+        width: 100%;
+        margin: 20px 40px;
+    }
+
+    .tcardSmallImg {
+        height: 80px;
+        width: 80px;
+    }
+
+}
