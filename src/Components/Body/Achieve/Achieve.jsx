@@ -4,7 +4,7 @@ import { AchieveData } from './AchieveData';
 const Achieve = () => {
     return (
         <>
-            <div className="main_C">
+            <div id="cases" className="main_C">
                 <div className="headingChoose3">
                     <div className="ChooseText3">Our Achievements<div className="curveChoose3"></div></div>
                 </div>

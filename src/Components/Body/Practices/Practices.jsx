@@ -6,7 +6,7 @@ import { DataBS } from '../../Common/Cards/DataBS';
 const Practices = () => {
     return (
         <>
-            <div className="headingChoose10">
+            <div id="practice" className="headingChoose10">
                 <div className="ChooseText10">Area of Practices<div className="curveChoose10"></div></div>
             </div>
             <div className="Pcards">

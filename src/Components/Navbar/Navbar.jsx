@@ -12,16 +12,16 @@ const Navbar = () => {
                 <div className="collapse navbar-collapse" id="navbarTogglerDemo03">
                     <ul className="navbar-nav my-2 ml-auto mr-5 mt-lg-2">
                         <li className="nav-item active mx-5">
-                            <a className="nav-link" href="/">Practice Areas</a>
+                            <a className="nav-link" href="#practice">Practice Areas</a>
                         </li>
                         <li className="nav-item active mx-5">
-                            <a className="nav-link" href="/">Testimonials</a>
+                            <a className="nav-link" href="#testimonials">Testimonials</a>
                         </li>
                         <li className="nav-item active mx-5">
-                            <a className="nav-link" href="/">Cases</a>
+                            <a className="nav-link" href="#cases">Cases</a>
                         </li>
                         <li className="nav-item active mx-5">
-                            <a className="nav-link" href="/">Our Team</a>
+                            <a className="nav-link" href="#team">Our Team</a>
                         </li>
                     </ul>
                     <form className="form-inline my-2 mr-5 my-lg-0">
